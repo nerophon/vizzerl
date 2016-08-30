@@ -1,0 +1,17 @@
+{application, vizzerl,
+ [{description, "Visualize Erlang Source in Neo4J"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { vizzerl_app, []}},
+  {applications,
+   [kernel
+    ,stdlib
+    ,neo4j
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
